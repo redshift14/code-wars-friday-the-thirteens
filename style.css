@@ -88,3 +88,25 @@ button:hover {
     text-align: center;
     margin-top: 30px;
 }
+@media screen and (max-width: 580px) {
+    h1 {
+        font-size: 38px;
+    }
+    input {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 420px) {
+    main {
+        padding: 60px 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    label {
+        font-size: 14px;
+    }
+    section {
+        width: 100%;
+    }
+}
